@@ -1,7 +1,7 @@
 <script setup>
-import Chat from './components/Chat/Chat.vue';
-import VideoDetails from './components/Video/VideoDetails.vue';
-import VideoPlayer from './components/Video/VideoPlayer.vue';
+import Chat from './components/chat/Chat.vue';
+import VideoDetails from './components/video/VideoDetails.vue';
+import VideoPlayer from './components/video/VideoPlayer.vue';
 
 import { ref } from 'vue';
 let newDescription = ref("default description");
